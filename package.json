@@ -1,7 +1,7 @@
 {
-  "name": "quasar-rsbuild",
+  "name": "quasar-rsbuild-wrapper",
   "version": "1.0.0",
-  "description": "Simple wrapper for rsBuild to enable smooth (but partial) replacement of Quasar App-Webpack",
+  "description": "Simple wrapper for qusar.config.js to allow using it with rsBuild instead of Quasar App-Webpack",
   "keywords": [
     "quasar",
     "spa",
@@ -11,7 +11,7 @@
     "rspack",
     "rsbuild"
   ],
-  "bugs": "https://github.com/tmcdos/quasar-rsbuild/issues",
+  "bugs": "https://github.com/tmcdos/quasar-rsbuild-wrapper/issues",
   "license": "MIT",
   "author": {
     "name": "TMCDOS",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tmcdos/quasar-rsbuild"
+    "url": "git+https://github.com/tmcdos/quasar-rsbuild-wrapper.git"
   },
   "type": "module",
   "main": "index.mjs",
