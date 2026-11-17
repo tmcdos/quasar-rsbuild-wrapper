@@ -178,6 +178,7 @@ export default function rsBuildQuasarConfig(objConfig, mode)
 
     // Specify HTML template and eventually define HTML variables
     objConfig.html = {
+      favicon: false,
       template: objConfig.html?.template || quasarCfg.build?.htmlFilename || './index.html',
       templateParameters: {
         ...quasarCfg.htmlVariables,
